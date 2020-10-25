@@ -164,5 +164,3 @@ RightClick = function(ac)
 	end
 end
 }
---Start Up Script
-loadstring(game:HttpGet('https://raw.githubusercontent.com/JalapenoGuy/Candi/main/Intro.lua', true))()
