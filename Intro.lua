@@ -179,7 +179,7 @@ local function MJFBLK_fake_script() -- Frame.LocalScript
 	object.Position = UDim2.new(0.0, 0, 1.2, 0)
 	
 	wait()
-	object:TweenPosition(UDim2.new(0, 0, 0, 0), nil, nil, 3)
+	object:TweenPosition(UDim2.new(0, 0, 0.8, 0), nil, nil, 3)
 	wait(10)
 	for i = 0.7, 1, 0.1 do
 		wait(0.1)
