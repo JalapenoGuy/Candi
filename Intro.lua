@@ -43,7 +43,7 @@ ImageLabel.Image = "http://www.roblox.com/asset/?id=5877164792"
 
 Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame_2.BackgroundTransparency = 0.800
+Frame_2.BackgroundTransparency = 0.600
 Frame_2.Position = UDim2.new(-0.00139904965, 0, 0.349529833, 0)
 Frame_2.Size = UDim2.new(0, 329, 0, 113)
 Frame_2.ZIndex = 0
