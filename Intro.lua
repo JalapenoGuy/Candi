@@ -56,7 +56,7 @@ Tex.Position = UDim2.new(0, 0, 0.60175252, 0)
 Tex.Size = UDim2.new(0, 297, 0, 50)
 Tex.Font = Enum.Font.RobotoMono
 Tex.Text = ""
-Tex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tex.TextColor3 = Color3.fromRGB(255, 255, 255)
 Tex.TextSize = 18.000
 
 TextLabel.Parent = Frame
@@ -66,7 +66,7 @@ TextLabel.Position = UDim2.new(0, 0, 0.393887341, 0)
 TextLabel.Size = UDim2.new(0, 297, 0, 50)
 TextLabel.Font = Enum.Font.Roboto
 TextLabel.Text = ""
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 23.000
 
 -- Module Scripts:
@@ -137,7 +137,7 @@ end
 
 -- Scripts:
 
-local function MCPXP_fake_script() -- Tex.LocalScript 
+local function EHMEPN_fake_script() -- Tex.LocalScript 
 	local script = Instance.new('LocalScript', Tex)
 	local req = require
 	local require = function(obj)
@@ -162,8 +162,8 @@ local function MCPXP_fake_script() -- Tex.LocalScript
 	
 	TypeWriter.typeWrite(script.Parent, "Developed By: Shade & JalapenoGuy")
 end
-coroutine.wrap(MCPXP_fake_script)()
-local function POKTC_fake_script() -- Frame.LocalScript 
+coroutine.wrap(EHMEPN_fake_script)()
+local function MJFBLK_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 	local req = require
 	local require = function(obj)
@@ -192,8 +192,8 @@ local function POKTC_fake_script() -- Frame.LocalScript
 	script.Parent.Parent:Destroy()
 	print("Finished")
 end
-coroutine.wrap(POKTC_fake_script)()
-local function TRTG_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(MJFBLK_fake_script)()
+local function BKTXJX_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 	local req = require
 	local require = function(obj)
@@ -218,5 +218,4 @@ local function TRTG_fake_script() -- TextLabel.LocalScript
 	
 	TypeWriter.typeWrite(script.Parent, "Candi Has Injected")
 end
-coroutine.wrap(TRTG_fake_script)()
-
+coroutine.wrap(BKTXJX_fake_script)()
