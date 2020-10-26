@@ -1,4 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {Title="Candi Has Injected"; Text="Developed By Shade & JalapenoGuy"; Duration=15;})
 local StarterGui = game:GetService("StarterGui")
 repeat
 	wait() 
